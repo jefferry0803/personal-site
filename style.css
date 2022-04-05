@@ -248,7 +248,7 @@ ul {
   .works-container {
     width: 70%;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
   }
   .secondWork-text {
     grid-area: 4;
