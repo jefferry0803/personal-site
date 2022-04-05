@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/eefc475d98.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>邱明輝|個人網站</title>
+  </head>
+  <body>
+    <header id="header" class="header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a href="#about" class="nav-list-link">關於我</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#learn" class="nav-list-link">學習經歷</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#works" class="nav-list-link">作品集</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#contact" class="nav-list-link">其他資訊</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="about" class="about">
+      <div class="about-container">
+        <div class="about-imgContainer">
+          <img src="./pics/about-img.jpg" class="about-img" />
+        </div>
+        <div class="about-textContainer">
+          <h1 class="about-title" data-aos="fade-down" data-aos-duration="1000">
+            你好<br />我是邱明輝
+          </h1>
+          <br />
+          <p class="about-p para" data-aos="fade-down" data-aos-duration="1000">
+            我是邱明輝，是一位目標為前端工程師的求職者，目前已熟悉HTML5，CSS3，RWD切版熟練，熟悉JavsScript及基礎JQuery，熟悉Vue框架基礎，使用過Vue
+            Router及Vuex。
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="learn" class="learn">
+      <div class="learn-text" data-aos="fade-down" data-aos-duration="1000">
+        <div class="learn-titleContainer">
+          <h2 class="learn-title">學習經歷</h2>
+        </div>
+        <p class="learn-p para">
+          我於去年畢業於宜蘭大學外文系，但畢業後發覺自身只具備英文能力，在職場上競爭力不足，便輾轉決定走上前端這條路，我首先透過線上課程自學基礎HTML,
+          CSS,
+          JavaScript，而後進入職訓局進修，補強基礎的同時也在假日自修Vue框架。
+        </p>
+      </div>
+    </section>
+    <section id="works" class="works">
+      <div class="works-titleContainer">
+        <h2 class="works-title">作品集</h2>
+      </div>
+      <div class="works-container">
+        <div
+          class="work-picContainer"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <a
+            href="https://jefferry-chiu-todo-list.netlify.app/"
+            target="_blank"
+            class="work-link"
+          >
+            <img src="./pics/work-pic1.jpg" alt="" class="work-pic" />
+          </a>
+        </div>
+        <div
+          class="work-textContainer"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <h4 class="work-title">Todo List</h4>
+          <p class="work-p para">
+            用JavaScript撰寫的Todo
+            List，有新增記事，標記已完成記事，刪除記事等功能，資料儲存在local
+            storage裡。
+          </p>
+        </div>
+        <div
+          class="work-textContainer secondWork-text"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <h4 class="work-title">Find a Coach</h4>
+          <p class="work-p para">
+            幫助學員及教練媒合的網站，教練可以註冊自己的資料到網站上，學員可以發送訊息給教練，使用Vue撰寫，搭配Vue
+            Router及Vuex，後端串接firebase。
+          </p>
+        </div>
+        <div
+          class="work-picContainer secondWork-pic"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <a
+            href="https://jefferry-chiu-find-a-coach.netlify.app"
+            class="work-link"
+            target="_blank"
+          >
+            <img src="./pics/work-pic2.jpg" alt="" class="work-pic" />
+          </a>
+        </div>
+        <!-- <div
+          class="work-picContainer"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <a href="" class="work-link">
+            <img src="./pics/work-pic3.jpg" alt="" class="work-pic" />
+          </a>
+        </div>
+        <div
+          class="work-textContainer"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <p class="work-p para">
+            作品介紹作品介紹作品介紹作品介紹作品介紹作品介紹作品介紹作品介紹作品介紹
+          </p>
+        </div> -->
+      </div>
+    </section>
+    <footer id="contact" class="footer">
+      <div class="ft-container">
+        <h3 class="ft-title">其他資訊</h3>
+        <div class="ft-links-container">
+          <a
+            class="ft-link"
+            href="https://rust-sidewalk-ac7.notion.site/Jefferry-Chiu-edca482076e9427a896982648b77823a"
+            target="_blank"
+            ><img class="ft-logo" src="./pics/notion.png" alt=""
+          /></a>
+          <a
+            class="ft-link"
+            href="https://codepen.io/jefferry0803"
+            target="_blank"
+            ><img class="ft-logo" src="./pics/codepen.png" alt=""
+          /></a>
+          <a
+            class="ft-link"
+            href="https://github.com/jefferry0803?tab=repositories"
+            target="_blank"
+            ><img class="ft-logo" src="./pics/github.png" alt=""
+          /></a>
+        </div>
+        <div class="ft-content">
+          <p class="ft-phone">手機: 0985314931</p>
+          <p class="ft-email">email: jefferrychiu@gmail.com</p>
+        </div>
+      </div>
+    </footer>
+    <div class="topBtn">
+      <i class="fa-solid fa-angles-up"></i>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./app.js"></script>
+  </body>
+</html>
