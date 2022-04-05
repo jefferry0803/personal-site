@@ -243,6 +243,7 @@ ul {
   }
   .about-container {
     flex-direction: column;
+    width: 80%;
   }
   .works-container {
     width: 70%;
